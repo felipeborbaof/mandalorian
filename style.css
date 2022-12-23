@@ -140,6 +140,11 @@ h1 span {
     margin: 0 -3px;
 }
 
+
+.center {
+    height: 100%;
+}
+
 .degrade {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#162336+0,162336+100&0+6,1+57,1+80 */
     background: -moz-linear-gradient(top,  rgba(22,35,54,0) 0%, rgba(22,35,54,0) 6%, rgba(22,35,54,1) 57%, rgba(22,35,54,1) 80%, rgba(22,35,54,1) 100%); /* FF3.6-15 */
@@ -240,6 +245,11 @@ section {
     text-align: center;
 }
 
+.logodisney {
+    min-width: 198px ;
+    width: 90%;
+}
+
 .assine, .preco , .vantagens {
     display: block;
     color: #fff;
@@ -265,6 +275,7 @@ footer {
     padding: 40px 0;
     text-align: center;
     margin-top: 40px;
+    clear: both;
 }
 
 .redes {
@@ -345,6 +356,77 @@ footer {
 
     nav a {
         padding: 8px 12px;
+    }
+
+}
+
+@media only screen and (min-width:850px) {
+
+
+    .spacevid {
+        width: 67%;
+        float: left;
+        
+        
+    }
+
+    .boxassine {
+        width: 31%;
+        float: right;
+        
+    }
+
+
+    .clear {
+        clear: both;
+    }
+
+    h1 {
+        font-size: 7rem;
+        line-height: 6.3rem;
+    }
+
+    .btn {
+        font-size: 1.75rem;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    body {
+        font-size: 1.3rem;
+    }
+
+    section, .center {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .center {
+        height: 100%;
+    }
+
+    header {
+        padding: 8px;
+        border-radius: 0 0 17px 17px;
+    }
+
+    h1 {
+        margin-bottom: 36px;
+    }
+
+    .w43 {
+        width: 32%;
+    }
+    
+    .videos {
+        overflow-y: unset;
+    }
+    .videos ul {
+        margin: -15px;
+    }
+    .videos ul li {
+        padding: 15px;
     }
 
 }
