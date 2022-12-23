@@ -309,6 +309,17 @@ footer {
     color: rgba(255, 255, 255, 0.30);
 }
 
+@media only screen and (max-width:350px) {  
+    h1 {
+        font-size: 3.3rem;
+    }
+
+    .btn {
+        font-size: 0.6rem;
+    }
+
+}
+
 @media only screen and (min-width:500px) {
     
     .videos ul li {
@@ -362,32 +373,54 @@ footer {
 
 @media only screen and (min-width:850px) {
 
+    .nav {
+        margin: -4px 7px;
+    }
+
+    .w43 {
+        width: 30%;
+    }
 
     .spacevid {
         width: 67%;
-        float: left;
-        
-        
+        float: left;   
+    }
+
+
+    .videos {
+        overflow-y: unset;
+    }
+
+    .videos ul {
+        margin: -15px;
+    }
+
+    .videos ul li {
+        padding: 15px;
     }
 
     .boxassine {
-        width: 31%;
-        float: right;
-        
+        width: 30%;
+        margin-top: 35px;
+        min-height: 335px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        float: right;    
     }
-
 
     .clear {
         clear: both;
     }
 
     h1 {
-        font-size: 7rem;
-        line-height: 6.3rem;
+        font-size: 5rem;
+        line-height: 5.3rem;
     }
 
     .btn {
-        font-size: 1.75rem;
+        font-size: 1rem;
     }
 }
 
@@ -407,7 +440,7 @@ footer {
     }
 
     header {
-        padding: 8px;
+        padding: 3px;
         border-radius: 0 0 17px 17px;
     }
 
@@ -416,17 +449,33 @@ footer {
     }
 
     .w43 {
-        width: 32%;
+        width: 30%;
     }
     
     .videos {
         overflow-y: unset;
     }
+
     .videos ul {
         margin: -15px;
     }
+
     .videos ul li {
         padding: 15px;
     }
 
+    .boxassine {
+        width: 30%;
+        margin-top: 40px;
+        min-height: 468px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
